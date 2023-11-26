@@ -171,7 +171,6 @@ img {
     url(../images/effective-solutions/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px;
   background-clip: padding-box;
 }
 
@@ -204,7 +203,7 @@ img {
   margin-top: 48px;
   margin-left: auto;
   margin-right: auto;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /*button text*/
 
   color: #fff;
