@@ -28,6 +28,8 @@ img {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -152,6 +154,7 @@ img {
 /*main-section-one*/
 
 .solutions {
+  max-width: 1440px;
   background: #2e2f42;
   height: 600px;
   display: flex;
@@ -473,14 +476,19 @@ img {
 
 .footer-conteiner {
   background: #2e2f42;
-  height: 312px;
+
   padding: 100px 0;
   display: flex;
 }
 
 .footer-box {
-  padding-top: 101.44px;
+  display: flex;
 }
+
+.footer-webstudio {
+  margin-right: 120px;
+}
+
 .footer-web {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -526,4 +534,9 @@ img {
   font-weight: 500;
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
+  padding-bottom: 16px;
+}
+
+.social-media-list .social-container {
+  gap: 16px;
 }
